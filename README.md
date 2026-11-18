@@ -2,6 +2,18 @@
 
 Version du kit : 1.2.2. Kit indépendant de déploiement K3s HA + Authentik, avec Longhorn, CloudNativePG, Headlamp et outils de maintenance.
 
+<!-- License badge: place this near the top of the README -->
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
+<!-- License section: place this near the end of the README -->
+## License
+
+K3s Authentik HA Kit is licensed under the [Apache License, Version 2.0](LICENSE).
+
+Copyright © 2026 sudobenz.
+
+Unless otherwise stated, this license applies to the original project files authored for this repository. Third-party components and assets remain subject to their respective licenses and notices.
+
 > **Important – kit d'installation, pas sauvegarde du cluster.** Cette archive contient les scripts, manifestes et paramètres de déploiement. Elle ne contient ni les données PostgreSQL/AuthentiK, ni les volumes Longhorn, ni les secrets, ni les certificats privés, ni un kubeconfig opérationnel. Ne relancez pas les scripts d'installation initiale sur le cluster déjà déployé.
 
 ## 1. Topologie d’exemple
