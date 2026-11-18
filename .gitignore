@@ -1,0 +1,36 @@
+/config.env
+# Secrets / credentials
+/secrets.env
+/secrets.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Kubeconfigs and generated runtime data
+/output/
+*.kubeconfig
+/kubeconfig
+
+# Portainer Edge Agent manifest (contains environment-specific pairing data)
+/portainer/portainer-agent-edge-k8s.yaml
+
+# Local certificates
+/certificates/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Editor / OS files
+.DS_Store
+*.swp
+*.crt
+*.cer
+# Données opérationnelles privées générées par le sous-système upgrade
+upgrade/backup-evidence.env
+upgrade/backups/*
+upgrade/reports/*
+upgrade/manifests/*
+*.jks
+*.keytab
