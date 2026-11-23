@@ -2,6 +2,10 @@
 
 Version du kit : 1.2.2. Kit indépendant de déploiement K3s HA + Authentik, avec Longhorn, CloudNativePG, Headlamp et outils de maintenance.
 
+
+## Demo
+
+![Authentik K3S kit](demos/Animation_Authentik_K3S.gif)
 <!-- License badge: place this near the top of the README -->
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 
